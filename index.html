@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+
+    <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+
+    
+    <nav>
+        <h1>MyPortfolio</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#inputan">Form</a></li>
+            <li><a href="#contact">Kontak</a></li>
+            
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Halo, Saya Cristian Tisya A.S</h2>
+            <p>Pelajar SMK N 1 PURBALINGGA JURUSAN PPLG</p>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="pjbl2/tisyaa.jpeg" alt="Foto Profil">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+
+        <p>
+            Halo! Nama saya Tisya. Saya seorang pelajar yang sedang belajar
+        membuat website menggunakan HTML, CSS. Saya tertarik pada
+        dunia teknologi, desain web, dan pemrograman.Saya suka mencoba hal baru, membuat project sederhana,
+        dan terus mengembangkan kemampuan di bidang coding.
+        </p>
+    </section>
+
+    <section id="project" class="project">
+        <h2>Project Saya</h2>
+
+        <div class="project-container">
+            <div class="card">
+                <img src="pjbl2/wisata.png" alt="wisata">
+                
+                <h3>Website Wisata</h3>
+                <p>Website tentang wisata nusantara.</p>
+            </div>
+
+            <div class="card">
+                <img src="pjbl2/portofolio.png" alt="portofolio">
+
+                <h3>Portfolio</h3>
+                <p>Website portfolio pribadi modern.</p>
+            </div>
+
+            <div class="card">
+                <img src="pjbl2/daftar.png" alt="daftar">
+
+                <h3>Daftar</h3>
+                <p>Web site Workshop Coding untuk pemula.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="inputan" class="inputan">
+        <section id="form">
+    <h2>Form Data Diri</h2>
+
+    <form class="form-box" id="dataForm">
+
+    <label>Nama Lengkap:</label>
+    <input type="text" id="nama">
+
+    <label>Alamat:</label>
+    <textarea rows="4" id="alamat"></textarea>
+
+    <label>Tempat Lahir:</label>
+    <input type="text" id="tempat">
+
+    <label>Tanggal Lahir:</label>
+    <input type="date" id="tanggal">
+
+    <label>Nomor HP:</label>
+    <input type="tel" id="hp">
+
+    <label>Email:</label>
+    <input type="email" id="email">
+
+    <label>Password:</label>
+    <input type="password" id="password">
+
+    <label>Jenis Kelamin:</label>
+    <div class="radio-group">
+        <input type="radio" name="jk" value="Laki-laki"> Laki-laki<br>
+        <input type="radio" name="jk" value="Perempuan"> Perempuan
+    </div>
+
+    <label>Agama:</label>
+    <select id="agama">
+        <option>Islam</option>
+        <option>Kristen</option>
+        <option>Katolik</option>
+        <option>Hindu</option>
+        <option>Buddha</option>
+    </select>
+
+    <label>Hobi:</label>
+    <div class="checkbox-group">
+        <input type="checkbox" class="hobi" value="Membaca"> Membaca<br>
+        <input type="checkbox" class="hobi" value="Olahraga"> Olahraga<br>
+        <input type="checkbox" class="hobi" value="Gaming"> Gaming<br>
+    </div>
+
+
+        <button type="submit">Kirim</button>
+
+
+    </form>
+</section>
+
+<section id="hasil-data" style="display: none;">
+    <h2 align="center">Data yang Dikirim</h2>
+
+
+    <div id="hasilKomentar"></div>
+
+</section>
+</section>
+
+    <section id="contact" class="contact">
+        <h2>Kontak</h2>
+
+        <p>Email: cristian@email.com</p>
+        <p>Instagram: @cristiantisyaandriani</p>
+    </section>
+
+
+    <footer>
+        <p>© 2026 Portfolio Cristian</p>
+    </footer>
+
+
+<script src="pjbl2/script.js"></script>
+
+</body>
+</html>
