@@ -1,6 +1,3 @@
-console.log("SCRIPT BERHASIL DIMUAT");
-
-
 const form = document.getElementById("dataForm");
 const hasilKomentar = document.getElementById("hasilKomentar");
 const hasilData = document.getElementById("hasil-data");
